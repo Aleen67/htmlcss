@@ -1,0 +1,28 @@
+.request_button{
+    border: 5px solid white;
+    width: 280px;
+    height:57px;
+    font-size: 17px;
+    background-color:rgb(10,102 , 194);
+    color:white;
+    font-weight: bold;
+    border-radius: 25px;
+
+}
+
+.save_button{
+    border: 2px solid rgb(10,102,194);
+    width: 120px;
+    height: 48px;
+    font-size: medium;
+    background-color:white;
+    color:rgb(10,102 , 194 );
+    border-radius: 25px;
+    font-weight: bold;
+}
+/* body{
+    background-color: black;
+} */
+.save_button:hover{
+    color:green;
+}
