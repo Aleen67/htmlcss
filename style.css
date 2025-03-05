@@ -7,6 +7,7 @@
     color:white;
     font-weight: bold;
     border-radius: 25px;
+    transition:opacity 0.15s;
 
 }
 
@@ -19,10 +20,19 @@
     color:rgb(10,102 , 194 );
     border-radius: 25px;
     font-weight: bold;
+    transition: background-color 0.14s;
+    box-shadow: -1px 10px 10px rgb(206, 206, 223);
 }
 /* body{
     background-color: black;
 } */
 .save_button:hover{
-    color:green;
+    background-color:rgb(10,102 , 194 ) ;
+    opacity: 0.9;
+    color: white;
+    
+}
+
+.request_button:hover{
+    opacity: 0.9;
 }
