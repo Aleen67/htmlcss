@@ -1,0 +1,23 @@
+.tittle{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    width: 400px;
+    margin-bottom: 0px;
+
+}
+
+.subtittle{
+    margin-top: 5px;
+    font-weight:lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.6;
+}
+.like_apple{
+    font-family: Arial;
+    font-size: 20px;
+    background-color: rgba(228, 22, 22, 0.888);
+    padding: 20px 90px 20px;
+    font-weight: 300;
+    
+}
