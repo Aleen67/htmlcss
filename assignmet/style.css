@@ -1,0 +1,37 @@
+.image{
+    width: 140px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 2px;
+    margin-bottom: 0px;
+}
+body{
+   
+    background-color: whitesmoke;
+}
+.container{
+    background-color:white;
+    display: inline-block;
+    box-shadow: 5px 5px 30px whitesmoke;
+}
+.tittle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-bottom :0px;
+    margin-top: 3px;
+}
+.subtittle{
+    opacity: 0.55;
+    margin-top: 0px;
+   margin-bottom:10px;
+    
+}
+.addfriend{
+    margin-bottom: 10px;
+    background-color:rgb(79, 132, 231);
+    border: 0px;
+    padding: 7px;
+}
+.subdiv{
+    margin-left: 8px;
+}
