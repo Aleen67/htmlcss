@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> -->
     
     <style>
         body{
@@ -28,26 +28,73 @@
        }
 
        .box{
-        padding: 0px 20px;
-        /* margin-left: 100px; */
-        /* display: flex; */
+        padding: 2px 20px;
         margin-top: 7px;
         float: right;
-
+        /* border: 1px solid black; */
        }
        .box input{
-        padding: 8px 15px;
+        padding: 9px 25px;
         
        }
        .box button{
        padding: 8px 15px;
        border: 1px solid transparent;
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       font-weight: 800;
        }
+       
        button:hover{
         background-color:rgb(171, 171, 171);
         cursor: pointer;
         border: 1px solid transparent;
        }
+       .container{
+        margin: 10px;
+      }
+       .shape img{
+        width: 350px;
+        height: 220px;  
+        object-fit: cover;
+        overflow: hidden;
+        object-position: top;
+        border-radius: 4px;
+       }
+       .dp-section{
+        height: 85px;
+        width: 50px;
+        margin: 5px;
+        padding-top: 5px;
+        /* background-color: red; */
+       }
+       .dp-section img{
+       height: 50px;
+       width: 50px;
+       /* background-color: red; */
+       object-fit: cover;
+       border-radius: 50%;
+
+    }
+   .details,.dp-section{
+    display: inline-block;
+   }
+   .details{
+    height: 85px;
+    width: 295px;
+    margin-left: 5px;
+    /* background-color: green; */
+   }
+   .dp-container{
+    display: flex;
+    
+   }
+   .details h2,p{
+    margin: 3px;
+
+   }
+   .details p{
+     opacity: 0.7;
+   }
 
     </style>
 </head>
@@ -58,8 +105,24 @@
         <a href="">About</a>
         <div class="box">
             <input type="text" placeholder="Search..">
-            <button type="submit">submit</button>
+            <button type="submit">Go</button>
         </div>
     </div>
+  <div class="container">
+        <div class="shape">
+           <img src="/images/pic2.jpg
+           " alt="thamnail">
+        </div>
+        <div class="dp-container">
+          <div class="dp-section">
+            <img src="/images/men.jpg" alt="">
+          </div>
+          <div class="details">
+            <h2>How to learn legatos noob to pro</h2>
+            <p >Asif Mahmud</p>
+            <p>4 views. 3 hours ago</p>
+          </div>
+        </div>
+  </div>
 </body>
 </html>
