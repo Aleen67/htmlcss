@@ -1,6 +1,6 @@
 .image{
-    width: 140px;
-    height: 200px;
+    width: 160px;
+    height: 220px;
     object-fit: cover;
     border-radius: 2px;
     margin-bottom: 0px;
@@ -12,7 +12,8 @@ body{
 .container{
     background-color:white;
     display: inline-block;
-    box-shadow: 5px 5px 30px whitesmoke;
+    box-shadow: 1px 1px 30px rgb(183, 180, 180);
+    margin: 5px;
 }
 .tittle{
     font-family: Arial, Helvetica, sans-serif;
@@ -23,7 +24,7 @@ body{
 .subtittle{
     opacity: 0.55;
     margin-top: 0px;
-   margin-bottom:10px;
+    margin-bottom:10px;
     
 }
 .addfriend{

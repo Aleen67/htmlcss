@@ -1,0 +1,14 @@
+.first{
+    list-style: none;
+    display:flex;
+    gap: 15px;
+}
+.bar{
+    font-size: 30px;
+    display: flex;
+    padding-left:440px ;
+}
+.logo{
+    width: 500px;
+    padding: 150px 200px;
+}
