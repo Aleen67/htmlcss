@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            height: 40px;
+            background-color: tomato;
+            width: 500px;
+        }
+        body{
+            margin: 10px;
+        }
+      .thamnail img{
+        background-color: tomato;
+        height: 300px;
+        width: 500px;
+        object-fit: cover;
+        border-radius: 10px;
+      }
+      .details{
+        display: grid;
+        grid-template-columns: 100px 1fr;
+        
+      }
+      .details img{
+        width: 70%;
+        border-radius: 50%;
+        /* padding: 10px; */
+        padding-top: 8px;
+        object-fit: cover;
+        
+      }
+      .profile-pic{
+        /* background-color: black; */
+      }
+      .tittle{
+        padding: 0px;
+       margin: 0px;
+       margin-top: 7px;
+        font-family: arial;
+        font-weight: bolder;
+        font-size: 18px;
+        padding-bottom: 0px;
+      }
+     .sub-tittle{
+        padding: 0px;
+        ;
+        font-family: arial;
+        font-size: 14px;
+        color: gray;
+      }
+      .text--details{
+        padding-top: 0px;
+        /* background-color: green; */
+      }
+
+    </style>
+</head>
+<body>
+      <div class="container">
+          <div class="thamnail">
+              <img src="/images/three.png" alt="Metalica">
+          </div>
+          <div class="details">
+            <div class="profile-pic"><img src="/images/myself.jpeg" alt=""></div>
+            <div class="text--details">
+                <p class="tittle">Top 10 Metalica riff</p>
+                <p class="sub-tittle">Only Mix <br>1,000,000 views.1 year ago</p>
+            </div>
+          </div>
+      </div>
+</body>
+</html>
