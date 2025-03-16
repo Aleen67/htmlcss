@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .super {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 400;
+            border: 2px solid gray;
+            border-radius: 10px;
+            padding: 10px;
+            width: 400px;
+            box-shadow: 3px 3px 15px 0px gray;
+            margin: 20px;
+        }
+
+        .second-super {
+            display: flex;
+            flex-direction: column;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 400;
+            border: 2px solid gray;
+            border-radius: 10px;
+            padding: 10px;
+            width: 400px;
+            height: 80px;
+            box-shadow: 3px 3px 15px 0px gray;
+            margin: 20px;
+            justify-content: center;
+            /* overflow: hidden; */
+        }
+
+        .subject-one,
+        .subject-two,
+        .subject-three,
+        .row-one {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .item-one {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+
+        button {
+            background-color: #1072f2;
+            border-radius: 5px;
+            border: none;
+            padding: 5px 10px;
+            color: white;
+            cursor: pointer;
+        }
+
+        .img-resize img {
+            border-radius: 50%;
+            width: 50px;
+        }
+
+        p {
+            margin: 0px;
+        }
+
+        .button-sec {
+            background-color: #1072f2;
+            border-radius: 10px;
+            border: none;
+            padding: 12px 20px;
+            color: white;
+            cursor: pointer;
+        }
+
+        .super-third {
+            background-color: lightseagreen;
+            display: flex;
+            gap: 10px;
+            justify-content: space-between;
+            margin: 0px;
+            height: 50px;
+            align-items: center;
+        }
+
+        .search-box {
+            flex: 1; /* Allow the search box to take up available space */
+            display: flex;
+            align-items: center;
+            border-radius: 5px;
+            border: 1px solid rgba(128, 6, 6, 0.276);
+            padding: 0 10px;
+            height: 35px; /* Adjust height as needed */
+        }
+
+        .search-box input {
+            width: 300px; /* Make the input take up the full width of the search box */
+            border: none;
+            outline: none;
+            padding: 5px;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="super">
+        <div class="subject-one">
+            <div>Home</div>
+            <div>
+                <button>20</button>
+            </div>
+        </div>
+        <div class="subject-two">
+            <div>Notification</div>
+            <div>
+                <button>16</button>
+            </div>
+        </div>
+        <div class="subject-three">
+            <div>Messages</div>
+            <div>
+                <button>1</button>
+            </div>
+        </div>
+    </div>
+    <div class="second-super">
+        <div class="row-one" style="align-items: center;">
+            <div class="item-one">
+                <div class="img-resize">
+                    <img src="/images/dp.jpg" alt="Display">
+                </div>
+                <div class="item-two">
+                    <p>John Doe
+                    <p>
+                    <p>Web Developer</p>
+                    <p>Popular</p>
+                </div>
+
+            </div>
+            <div>
+                <button class="button-sec">Follow</button>
+            </div>
+        </div>
+        <!-- search box -->
+    </div>
+    <div class="super-third">
+        <button class="button-one">Home</button>
+        <div class="search-box">
+            <input type="text" placeholder="Search">
+        </div>
+        <button class="button-thrio">Messages</button>
+    </div>
+</body>
+
+</html>
