@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>youtube-clone</title>
+    <style>
+        body {
+            margin: 0px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            height: 50px;
+            align-items: center;
+            margin: 0px;
+        }
+
+        .logos {
+            display: flex;
+            gap: 20px;
+            font-size: 30px;
+            margin-left: 10px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: bold;
+        }
+
+        .middle-bar {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            max-width: 600px; /* Adjust as needed */
+            margin: 0 auto;
+        }
+
+        .middle-bar input {
+            flex: 1;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid rgba(128, 128, 128, 0.276);
+            border-radius: 4px 0 0 4px;
+            height: 35px; /* Ensure the height matches the icon */
+            border-right: none; /* Remove the right border */
+        }
+
+        .search-icon {
+            padding: 10px;
+            background: rgba(128, 128, 128, 0.276);
+            border: 1px solid rgba(128, 128, 128, 0.276);
+            border-radius: 0 4px 4px 0;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 35px; /* Ensure the height matches the input */
+            border-left: none; /* Remove the left border */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="left">
+            <div class="logos">
+                <div><i class="bi bi-list"></i></div>
+                <div><i class="bi bi-youtube"></i> Youtube</div>
+            </div>
+        </div>
+        <div class="middle">
+            <div class="middle-bar">
+                <input type="text" placeholder="Search">
+                <div class="search-icon">
+                    <i class="bi bi-search"></i>
+                </div>
+            </div>
+        </div>
+        <div class="right">icon</div>
+    </div>
+</body>
+
+</html>
