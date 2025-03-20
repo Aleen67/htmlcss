@@ -1,0 +1,74 @@
+.top-navbar {
+    display: flex;
+    margin-left: 25px;
+    font-size: 25px;
+    margin-top: 10px;
+    
+    /* background-color: blue; */
+}
+
+body {
+    /* padding-bottom: 2000px; */
+    margin: 0px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.fa-list{
+    margin-right: 20px;
+}
+.fa-youtube{
+    color: red;
+    font-size: 30px;
+}
+
+.container{
+    display: flex;
+    /* background-color: lightblue; */
+    height: 60px;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    
+}
+.search-bar,.right-side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: px;
+    /* background-color: lightcoral; */
+}
+.search-bar input , .search-icon{
+    height: 39px;
+    font-size: 25px;
+    border-radius: 3px;
+    border: 1px solid transparent;
+    /* background-color:lightcoral; */
+    
+}
+.search-bar input{
+    /* background-color: aliceblue; */
+    padding-left: 30px;
+
+}
+.search-bar input::placeholder{
+    /* padding-left: 30px; */
+    font-size: 20px;
+}
+.fa-search{
+   padding: 7px;
+   border-radius: 0px;
+   border-left: 1px solid rgba(128, 128, 128, 0.624);
+}
+.fa-person,.fa-bell,.fa-user{
+    margin: 10px 12px;
+    font-size: 25px;
+
+}
+.search-bar{
+    /* background-color: red; */
+    margin-top: 5px;
+    height: 40px;
+    border-radius: 25px;
+    overflow: hidden;
+    border: 1px solid rgba(128, 128, 128, 0.737);
+
+}
